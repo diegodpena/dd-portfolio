@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+		<meta name="Description" content="Portfolio"/>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Diego De La Pena's Portfolio</title>
+		<link rel="stylesheet" href="text/styles.css" type="text/css">
+		<link rel="stylesheet" href="https://use.typekit.net/jwi4dnc.css">
+		<link rel="stylesheet" href="https://use.typekit.net/jwi4dnc.css">
+   </head>
+
+<body>
+
+	<!--The header includes the shareholder name and site navigation on the home page.-->
+
+	<header>
+		
+		<nav>
+			<ul>
+				<li><a href="#projects">PROJECTS</a></li>
+				<li><a href="#notes">NOTES</a></li>
+				<li><a href="#aboutme">ABOUT ME</a></li>
+				<li><a href="#contactme">CONTACT ME</a></li>
+			</ul>
+		</nav>
+		
+	<!--Home-->
+	<div class="flex-container" id="home">
+		<img src="../DD-Portfolio/images/HomeBlueRippedPaper.png" alt="home blue ripped paper" style="max-width:100%;height:auto;">
+		<div class="title"><h1>Diego De La Pena</h1></div>
+		<div class="portfolio"><p>Portfolio</p></div>
+		<div class="home"><a href="#home">Home</a></div>
+	</div>
+	
+	</header>
+
+	<!--The main section includes Projects, Notes, About Me, Contact Me.-->
+
+	<main>
+
+        <!--Projects-->
+        <div class="flex-container" id="projects">
+            <img  src="../DD-Portfolio/images/ProjectsPaper.png" alt="projects blue ripped paper" style="max-width:100%;height:auto;">
+            <div class="projects"><a href="#home"><h2>Projects</h2></a></div>
+            <div class="projects1"><p>Project #1</p></div>
+            <div class="projects2"><p>Project #2</p></div>
+            <div class="projects3"><p>Project #3</p></div>
+        </div>
+
+		<!--Notes-->
+        <div class="flex-container" id="notes">
+        <img src="../DD-Portfolio/images/Notes.png" alt="notes blue ripped paper" style="max-width:100%;height:auto;">
+        <div class="notes"><a href="#home"><h2>Notes</h2></a></div>
+        <div class="BOC">
+            <h3>MLS(ASCP), BOC</h3>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20interim_mls_content_guideline_Jan2022.pdf" target="_blank">EXAMINATION CONTENT GUIDELINE 2022</a></p>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20Hematology%20Combined%20Notes.pdf" target="_blank">Hematology</a></p>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20Chemistry%20Combined%20Notes.pdf" target="_blank">Clinical Chemistry</a></p>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20CLLS%20312%20-%20Clinical%20Chemistry%20&%20Instrumentation%20II%20_%20Complete%20Course%20Notes.pdf" target="_blank">Clinical Chemistry II</a></p>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20Immunology%20Combined%20Notes.pdf" target="_blank">Immunology</a></p>
+            <p><a href="../DD-Portfolio/notes/Copy%20of%20Urinalysis%20Combined%20Notes.pdf" target="_blank">Urinalysis</a></p>
+            <p>Microbiology (PENDING)</p>
+            <p>Immunohematology (PENDING)</p>
+        </div>
+        </div>
+
+		<!--About Me-->
+        <div class="flex-container" id="aboutme">
+        <img src="../DD-Portfolio/images/AboutMe.png" alt="about me blue ripped paper" style="max-width:100%;height:auto;">
+        <div class="aboutme"><a href="#home"><h2>About<br>Me</h2></a></div>
+        <div class="description">
+                <p>A medical laboratory scientist and an up-and-coming information systems analyst passionate about quality, reliable laboratory healthcare and information systems.</p>
+				<br>
+                <p>I have a strong track record of learning and using laboratory information systems (LIS) and software.</p>
+				<br>
+                <p>I got my Bachelor’s in Medical Laboratory Science at Virginia Commonwealth University.</p>
+				<br>
+                <p>Currently, I’m working towards an Associate of Applied Science in Information Systems Technology at Brightpoint Community College.</p></div>
+        </div>
+
+		        <!--Contact Me-->
+     <div class="flex-container" id="contactme">
+        <img src="../DD-Portfolio/images/ContactMe.png" alt="contact me blue ripped paper" style="max-width:100%;height:auto;">
+        <div class="contactme"><a href="#home"><h2>Contact<br>Me</h2></a></div>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/delapenadiego" target="_blank">Linkedin</a>
+        </div>
+            <!-- Contact Form -->
+
+        <div class="contactform">
+            <div class="lt">
+                <!-- form starting  -->
+                <form class="form-horizontal" method="post" action="contact.php">
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <!-- name  -->
+                            <input type="text" class="form-control" 
+                                   id="name" placeholder="NAME" 
+                                   name="name" value="" />
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <!-- email  -->
+                            <input type="email" class="form-control" 
+                                   id="email" placeholder="EMAIL" 
+                                   name="email"
+                                value="" />
+                        </div>
+                    </div>
+
+                    <!-- message  -->
+                    <textarea class="form-control" placeholder="MESSAGE" name="message"></textarea>
+
+                    <button class="btn btn-primary send-button" 
+                            id="submit" type="submit" value="SEND">
+                        <i class="fa fa-paper-plane"></i>
+                        <span class="send-text">SEND</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+<!--The footer includes shareholder name.-->
+
+<footer>
+	<p>&copy; 2025 Diego De La Pena</P>
+</footer>
+
+</body>
+
+</html>
